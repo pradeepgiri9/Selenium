@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-21T18:46:15 MDT" name="Default suite" finished-at="2023-04-21T18:46:49 MDT" duration-ms="34698">
+    <groups>
+    </groups>
+    <test started-at="2023-04-21T18:46:15 MDT" name="Default test" finished-at="2023-04-21T18:46:49 MDT" duration-ms="34698">
+      <class name="DataDrivenPractice">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:DataDrivenPractice@1fa268de]" started-at="2023-04-21T18:46:15 MDT" name="openBrowser" finished-at="2023-04-21T18:46:32 MDT" duration-ms="17426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DataDrivenPractice@1fa268de]" started-at="2023-04-21T18:46:33 MDT" name="login" data-provider="dp" finished-at="2023-04-21T18:46:39 MDT" duration-ms="5497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123 Main street, TX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mickey@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DataDrivenPractice@1fa268de]" started-at="2023-04-21T18:46:39 MDT" name="login" data-provider="dp" finished-at="2023-04-21T18:46:44 MDT" duration-ms="5462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[234 High street, CO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2345678901]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Stanley@yahoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DataDrivenPractice@1fa268de]" started-at="2023-04-21T18:46:44 MDT" name="login" data-provider="dp" finished-at="2023-04-21T18:46:49 MDT" duration-ms="5284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[345 Pebble Rd, AR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3456789012]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rickey@me.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- DataDrivenPractice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

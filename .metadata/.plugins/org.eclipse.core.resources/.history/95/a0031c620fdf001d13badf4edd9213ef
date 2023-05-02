@@ -1,0 +1,32 @@
+
+public class ExcelMainPractice {
+	
+		public static void main(String[] args) {
+			
+			ExcelReaderPractice rd = new ExcelReaderPractice("C:\\Users\\prade\\Documents\\FrameworkPracticeBook.xlsx", "Login");
+			
+			int rows =  rd.getRowCount();
+			System.out.println("Rows : "+rows);
+			
+			int cols = rd.getColCount();
+			System.out.println("Cols : "+cols);
+			
+//			String data = rd.getData(2,1);
+//			System.out.println(data);
+			
+			
+			for(int i=0;i<rows;i++)
+			{
+				for(int j=0;j<cols;j++)
+				{
+					String data = rd.getData(i, j);
+					System.out.print(data+" ");
+				}
+				System.out.println();
+			}
+			
+			
+			
+			
+		}
+}

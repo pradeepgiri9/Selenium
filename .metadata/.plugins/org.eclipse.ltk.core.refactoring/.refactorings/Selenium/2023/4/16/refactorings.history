@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;util&apos; to &apos;FrameworkTest/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;Selenium&apos;&#x0D;&#x0A;- Destination element: &apos;FrameworkTest/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;util&apos;" description="Copy folder" destination="=FrameworkTest/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="Frameworks/src/test/java/util" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1682124198781" units="0" version="1.0"/>
+</session>
